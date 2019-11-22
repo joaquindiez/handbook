@@ -11,9 +11,9 @@ Create a tutorial to use **Micronaut** with different Languajes and DataBases
 
 * [Guide DZone Building MicroServices with Micronaut](https://dzone.com/articles/building-microservices-with-micronaut)
 
-*[Micronaur Authentication](https://micronaut-projects.github.io/micronaut-security/latest/guide/)
-*[reactive-microservices-development-with-micronaut](https://arul.dev/2019/03/31/reactive-microservices-development-with-micronaut/)
-*[micronayt api gateway](https://arul.dev/2019/04/07/micronaut-api-gateway-in-action/)
+* [Micronaur Authentication](https://micronaut-projects.github.io/micronaut-security/latest/guide/)
+* [reactive-microservices-development-with-micronaut](https://arul.dev/2019/03/31/reactive-microservices-development-with-micronaut/)
+* [micronayt api gateway](https://arul.dev/2019/04/07/micronaut-api-gateway-in-action/)
 
 ## Installing micronaut
 
