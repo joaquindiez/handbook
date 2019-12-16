@@ -15,6 +15,8 @@ Create a tutorial to use **Micronaut** with different Languajes and DataBases
 * [reactive-microservices-development-with-micronaut](https://arul.dev/2019/03/31/reactive-microservices-development-with-micronaut/)
 * [micronayt api gateway](https://arul.dev/2019/04/07/micronaut-api-gateway-in-action/)
 
+* [Micronaut - kubernete- Google Tutorial](https://codelabs.developers.google.com/codelabs/cloud-micronaut-kubernetes/index.html?index=..%2F..index#1)
+
 ## Installing micronaut
 
 I use SDKMAN
@@ -60,7 +62,7 @@ The constructed JAR file can then be executed with java -jar
 
 ## Create a Micronaut + Kotlin + MongoDB Application
 
-	mn create-app micronaut-kotlin-mongo01 --lang kotlin --features mongo-reactive
+	mn create-app micronaut-kotlin-mongo01 --lang kotlin --features mongo-reactive,security-jwt
 
 
 

@@ -38,3 +38,18 @@ docker login -u AWS -p eyJwYXlsb2FkIjoiNk8zelh0YkNWTFpkbFhEMzNKSDA3Y2U2WjdadWNNd
 Copy and run the output or
 
     eval $(aws ecr get-login --no-include-email)
+
+
+
+    
+## Push Docker to repo
+
+   [https://docs.docker.com/engine/reference/commandline/push/](https://docs.docker.com/engine/reference/commandline/push/)
+   
+   
+    docker tag kidm:latest joaquindiez75/kidm:0.1.0-SNAPSHOT
+    docker push joaquindiez75/kidm:0.1.0-SNAPSHOT
+   
+    docker tag local-image:tagname new-repo:tagname
+    docker push new-repo:tagname
+    
