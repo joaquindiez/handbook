@@ -27,7 +27,7 @@ output=json
 
 4.- Login in AWS ECR 
 
-    aws  ecr get-login --no-include-email
+    aws  ecr get-login -region eu-west-1 --no-include-email
 
 this return something like
 
@@ -37,7 +37,7 @@ docker login -u AWS -p eyJwYXlsb2FkIjoiNk8zelh0YkNWTFpkbFhEMzNKSDA3Y2U2WjdadWNNd
 
 Copy and run the output or
 
-    eval $(aws ecr get-login --no-include-email)
+    eval $(aws ecr get-login -region eu-west-1 --no-include-email)
 
 
 
